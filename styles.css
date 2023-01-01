@@ -1,0 +1,156 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    display: flex;
+    justify-content:flex-end;
+}
+header nav .derecha{
+    width:250px ;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    color: blueviolet;
+}
+.derecha a{
+    margin-right: 10px;
+    color:  #959494;
+}
+nav .derecha .icono{
+    background-image: url(https://static.thenounproject.com/png/756729-200.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+nav .derecha img{
+    border-radius: 50%;
+    margin-left: 10px;
+}
+main{
+    margin-top: 100px;
+    text-align: center;
+}
+main .mein-logo{
+    width: 560px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+main .main-logo img{
+    width: 272px;
+}
+input:focus{
+    outline: none ;
+}
+main .main-input{
+    width: 560px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+#main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #f7f0f04f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 6px 0 ; 
+    color: rgb(167, 163, 163);
+}
+
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;   
+} 
+
+ .lupita{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+ }
+
+ .microfono{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+
+}
+
+ .btn-search:hover{
+    box-shadow: 0 1px 6px 0 ; 
+   }
+
+.botones{
+    width: 530px;
+    margin: 0% auto;   
+}
+.botones div{
+    display: inline-block;
+}
+ .botones button{
+    height: 36px;
+    background-color:  #f8f9fa;
+    border: none;
+    font-size: 14px;
+    border-radius: 6px;
+    margin-right: 10px;
+    color: #666565;
+    padding:  0 15px;
+  
+ }
+ .botones button:hover{
+    border: 1px solid  #f8f9fa;
+    box-shadow: 1px #f8f9fa;
+    color:#3b3a3a;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f8f9fa;
+    border: 1px solid #e4e4e4;
+}
+ ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    
+}
+.footer-izquierda{
+    justify-content: left;
+}
+.footer-derecha{
+    justify-content: right;
+}
+ul li a{
+    margin: 10px;
+    color:#666565;;
+}
